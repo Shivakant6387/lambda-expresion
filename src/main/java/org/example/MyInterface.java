@@ -1,2 +1,7 @@
-package org.example;public class MyInterface {
+package org.example;
+@FunctionalInterface
+interface MyInterface {
+
+    // abstract method
+    String reverse(String n);
 }
